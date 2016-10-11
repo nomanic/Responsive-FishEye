@@ -1,0 +1,36 @@
+<div id="answer"></div>
+		<div id="fishyEyeGlubGlubImaFishWeee" style="position:absolute;top:30px;left:100px;width:60%;">
+			<img class="fisheye fishspace" src="spacer.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="f.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="i.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="s.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="h.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="e.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="y.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="e.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye fishspace" src="spacer.gif" style="float:left;cursor:pointer;" />
+			<div style="clear:both;"></div>
+		</div>
+		<div id="fishyEyeGlubGlubImaFishWeee2" style="position:absolute;top:30px;left:100px;height:60%;">
+			<img class="fisheye fishspace" src="spacer.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="f.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="i.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="s.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="h.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="e.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="y.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye" src="e.gif" style="float:left;cursor:pointer;" />
+			<img class="fisheye fishspace" src="spacer.gif" style="float:left;cursor:pointer;" />
+			<div style="clear:both;"></div>
+		</div>
+<script type="text/javascript" src="fisheye.js"></script>
+<script type="text/javascript">
+var fishy=new fisheye();
+fishy.createVert("fishyEyeGlubGlubImaFishWeee2",100);
+var fishy2=new fisheye();
+fishy2.create("fishyEyeGlubGlubImaFishWeee",100);
+window.onresize=function() {
+	fishy.resize();
+	fishy2.resize();
+}
+</script>
