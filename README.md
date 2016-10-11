@@ -36,11 +36,11 @@ Dual licensed under MIT and GPL
 
 <script type="text/javascript">
 
-//Create Horizontal Fisheye Menu
+//Create Horizontal Fisheye Menu, dictated by width of container
 var fishy=new fisheye();
 fishy.create("GlubGlub");
 
-//or Create Vertical Fisheye Menu (optional Sensitivity, default 100)
+//or Create Vertical Fisheye Menu, dictated by height of container (optional Sensitivity, default 100)
 var fishyv=new fisheye();
 fishyv.createVert("GlubGlub",100);
 
