@@ -44,11 +44,5 @@ fishy.create("GlubGlub");
 var fishyv=new fisheye();
 fishyv.createVert("GlubGlub",100);
 
-//Resize menus on window resize
-window.onresize=function() {
-	fishy.resize();
-	fishyv.resize();
-}
-
 </script>
 ```
