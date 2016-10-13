@@ -9,7 +9,6 @@
  * @copyright  Copyright 2016 Neil Oman
  * @license    Dual licensed under MIT and GPL
  */
-
 fisheye=function() {
 	this.cacheob = {};
 	this.obj = false;
@@ -42,6 +41,10 @@ fisheye=function() {
 		this.imsp=this.obj.getElementsByClassName("fishspace");
 		for (var i = 0; i < this.nfish; ++i) {
 			(this.im[i]).i=i;
+		}
+		var self=this;
+		this.obj.onresize=function() {
+			self.resize();
 		}
 		this.obj.onmousemove=function(e) {
 			var xpos=(this.fishy.axis==1)?(e?e.pageX:(window.event.x + document.body.scrollLeft - 2))-this.fishy.obj_left:((e?e.pageY:(window.event.y + document.body.scrollTop - 2))-this.fishy.obj_left);
