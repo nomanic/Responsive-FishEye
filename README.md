@@ -5,8 +5,11 @@
 Author: Neil Oman
 Version: 1
 
-Copyright 2016 Neil Oman
-Dual licensed under MIT and GPL
+Copyright 2016 Nomanic (support [with license] : nomanic99@gmail.com)
+License: Envato Split License with GPL (see text file)
+
+Basically free for non-commercial use only.
+If you wish to buy a license, please visit my website.
 
 ## Features
 
